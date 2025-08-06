@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [ 
-    'https://risk-prediction-six.vercel.app/',
+    'https://risk-prediction-six.vercel.app',
     'http://localhost:5173', // Development frontend
   ];
   console.log(allowedOrigins);
