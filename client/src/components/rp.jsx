@@ -30,7 +30,7 @@ function RiskPrediction() {
     setPredictions([]);
     setError('');
     try {
-      const res = await fetch("http://localhost:5000/api/predict", {
+      const res = await fetch("https://risk-prediction-bogi.onrender.com/api/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(inputs),
