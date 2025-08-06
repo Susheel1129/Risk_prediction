@@ -7,9 +7,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [ 
-    'https://www.airfetch.online',
-    'https://airfetch.online',  // Production frontend
-    'https://api.airfetch.online', // Production API
+    'https://risk-prediction-six.vercel.app/',
     'http://localhost:5173', // Development frontend
   ];
   console.log(allowedOrigins);
@@ -104,4 +102,4 @@ Use plain text with clear headings as shown above.
   }
 });
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(10000, () => console.log("Server running on port 10000"));
